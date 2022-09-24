@@ -167,6 +167,17 @@
     margin-top: 150px;
 }
 
+@keyframes fade-inout {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.loading__icon {
+    width: 100px;
+    height: 100px;
+    animation: fade-inout 0.7s infinite alternate;
+}
+
 @media screen and (max-width: 550px) {
     .card {
       width: 90%;

@@ -1,9 +1,10 @@
 import React from 'react'
+import weather from "../../assets/season.png"
 
 const Loading = () => {
   return (
     <div className='loading__container'>
-        <h2>Loading...</h2>
+        <img className="loading__icon" src={weather}/>
     </div>
   )
 }

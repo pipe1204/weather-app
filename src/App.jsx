@@ -74,7 +74,6 @@ function App() {
       : 
       <Loading />
     }
-      
     </div>
   )
 }
