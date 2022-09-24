@@ -38,7 +38,7 @@ const Card = ({data}) => {
           <p>{isFarenheit ? data?.main.feels_like : celcius}</p>
         </div>
       </div>
-      <button className="button__tempt gradient__background" onClick={handleChange}>Change Scale</button>
+      <button className="button__tempt gradient__background" onClick={handleChange}>Change to {isFarenheit ? "°C" : "°F"}</button>
     </div>
   )
 }
