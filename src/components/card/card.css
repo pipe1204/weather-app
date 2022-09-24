@@ -1,0 +1,189 @@
+.card {
+    width: 40%;
+    padding: 2rem;
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: url(https://images.unsplash.com/photo-1536244636800-a3f74db0f3cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNsb3Vkc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+}
+
+.Clear {
+    background: url(https://images.unsplash.com/photo-1623846736569-1d90cba76d65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNsZWFyJTIwc2t5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+}
+
+.Thunderstorm {
+    background: url(https://images.unsplash.com/photo-1605727216801-e27ce1d0cc28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGh1bmRlcnN0b3JtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+}
+
+.Drizzle {
+    background: url(https://images.unsplash.com/photo-1638253910847-b98cac8387c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZHJpenpsZSUyMHJhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+}
+
+.Rain {
+    background: url(https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFpbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+}
+
+.Snow {
+    background: url(https://images.unsplash.com/photo-1483664852095-d6cc6870702d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHNub3d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+}
+
+.Fog {
+    background: url(https://images.unsplash.com/photo-1502689444867-e9d77b2d4758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Zm9nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+}
+
+.Mist {
+    background: url(https://images.unsplash.com/photo-1502689444867-e9d77b2d4758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Zm9nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+}
+
+.card__header {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__header h1, h2, p, img {
+    margin: 0.4rem 0;
+}
+
+.card__header p {
+    font-size: 16px;
+}
+
+.card__container-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.card__container-icon p {
+    font-weight: 700;
+}
+
+.card__body {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__body-temp {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__body p {
+    margin: 1rem 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.card__body h2 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.card__container-button {
+    flex: 1;
+    display: flex;
+}
+
+@keyframes fade-inout {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.randomPick__button {
+    padding: 10px 14px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #182747;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    animation: fade-inout 1.5s infinite alternate;
+}
+
+.randomPick__button:hover {
+    animation: none;
+}
+
+.randomPick__button:focus {
+    outline: none;
+}
+  
+.randomPick__button:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.button__tempt {
+    padding: 10px 14px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #647E68;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.button__tempt:focus {
+    outline: none;
+}
+  
+.button__tempt:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.loading__container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+@media screen and (max-width: 550px) {
+    .card {
+      width: 90%;
+      margin: 1rem;
+      padding: 1rem;
+    }
+
+    .card__body {
+        flex-direction: column;
+    }
+
+    .card__body p {
+        margin: 0.4rem 0;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+    
+  }

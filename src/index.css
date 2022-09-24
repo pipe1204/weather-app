@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: url(./assets/aurora.jpg);
+  background-size: cover;
+  font-family: var(--font-family);
+  color: white;
+}
+
+:root {
+  --font-family: 'Manrope', sans-serif;
+
+}
+
+.gradient__background {
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(160deg, rgba(0, 66, 137, 1) 0%, rgba(125, 92, 195, 1) 100%); 
+  
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(160deg, rgba(0, 66, 137, 1) 0%, rgba(125, 92, 195, 1) 100%);
+  
+    /* opera 11.10+ */
+    background:-o-linear-gradient(160deg, rgba(0, 66, 137, 1) 0%, rgba(125, 92, 195, 1) 100%);
+  
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7D5CC3', endColorstr='#004289', GradientType=1 );
+  
+    /* ie 10+ */
+    background:-ms-linear-gradient(160deg, rgba(0, 66, 137, 1) 0%, rgba(125, 92, 195, 1) 100%);
+  
+    /* global 94%+ browsers support */
+    background:linear-gradient(160deg, rgba(0, 66, 137, 1) 0%, rgba(125, 92, 195, 1) 100%);
+}
+
+.gradient__background-2 {
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(160deg, rgba(238, 205, 163, 1) 0%, rgba(239, 98, 159, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(160deg, rgba(238, 205, 163, 1) 0%, rgba(239, 98, 159, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(160deg, rgba(238, 205, 163, 1) 0%, rgba(239, 98, 159, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EF629F', endColorstr='#EECDA3', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(160deg, rgba(238, 205, 163, 1) 0%, rgba(239, 98, 159, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(160deg, rgba(238, 205, 163, 1) 0%, rgba(239, 98, 159, 1) 100%);
+
+}
